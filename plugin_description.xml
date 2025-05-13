@@ -1,0 +1,25 @@
+<library path="lib/libgps_components">
+  <class name="ins_processing::GpsPublisher"
+         type="ins_processing::GpsPublisher"
+         base_class_type="rclcpp::Node">
+    <description>Publishes GPS data</description>
+  </class>
+
+  <class name="ins_processing::GpsSubscriber"
+         type="ins_processing::GpsSubscriber"
+         base_class_type="rclcpp::Node">
+    <description>Subscribes to GPS data</description>
+  </class>
+
+  <class name="ins_processing::GpsConverter"
+         type="ins_processing::GpsConverter"
+         base_class_type="rclcpp::Node">
+    <description>Converts GPS coordinates to ENU</description>
+  </class>
+</library>
+
+
+  
+  
+  
+  

@@ -1,0 +1,11 @@
+# 忽略 ROS2 构建相关目录
+build/
+install/
+log/
+.colcon/
+*.pyc
+__pycache__/
+*.swp
+.vscode/
+*.log
+
